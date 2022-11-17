@@ -1,0 +1,52 @@
+@font-face{font-family:"roslindale-light";src:url(/fonts/RoslindaleDisplayCondensed-Light.160a9a9.woff) format("woff")}
+.nav_bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1px;
+    list-style: none;
+    background: white;
+    color: green;
+}
+
+.nav_bar a{
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    align-items: center;
+}
+
+.left_a{
+    display: flex;
+    justify-content: space-evenly;  
+
+}
+.right_a{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+li {
+    padding: 0 15px;
+}
+
+.index_1 {
+    background-color: #fdeadd;
+    text-align: center;
+
+}
+
+.title_index_1{
+    font-family: roslindale-light;
+    font-size: 112px;
+    color: #3b2321;
+}
+
+.image1{
+    border-top-left-radius: 300px 300px;
+    border-top-right-radius: 300px 300px;
+    width:383px ;
+    height: 419px;
+    display: block;
+}
