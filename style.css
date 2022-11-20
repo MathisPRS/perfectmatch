@@ -44,8 +44,14 @@ li {
 
 }
 
+.index_3 {
+    background-color: white;
+    text-align: center;
+
+}
+
 .title_index_1{
-    font-family: roslindale-light;
+    font-family:roslindale-light;
     font-size: 144px;
     color: #3b2321;
 }
@@ -54,12 +60,18 @@ li {
     font-size: 96px;
     color: #3b2321;
 }
-
+.title_index_3{
+    font-family:roslindale-light;
+    font-size: 96px;
+    color: #3b2321;
+}
 .image1{
     border-top-left-radius: 300px 300px;
     border-top-right-radius: 300px 300px;
     width: 414px ;
     height: 396px;
+    
+    object-fit: cover;
     display: flex;
 }
 
@@ -67,4 +79,20 @@ li {
     width: 392px ;
     height: 495px;
     display: flex;
+}
+
+.button_index_3{
+    background-color: #fdeadd;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 80px;
+    border: none;
+    padding: 20px 24px 19px;
+    outline: none;
+    justify-content: center;
+    transition: background-color .5s;
+}
+.button_index_3:hover{
+    background-color: #edcdb8;
+    cursor: pointer;
 }
